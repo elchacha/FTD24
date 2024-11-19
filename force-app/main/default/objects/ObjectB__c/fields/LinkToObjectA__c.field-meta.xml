@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LinkToObjectA__c</fullName>
+    <label>LinkToObjectA</label>
+    <referenceTo>ObjectA__c</referenceTo>
+    <relationshipLabel>objectAs</relationshipLabel>
+    <relationshipName>objectA</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

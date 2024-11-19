@@ -1,0 +1,150 @@
+{
+  "attributes": {
+    "type": "Account"
+  },
+  "records": [
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "AccountRef1"
+      },
+      "Name": "Sample Account for Entitlements",
+      "CleanStatus": "Pending"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "AccountRef2"
+      },
+      "Name": "Edge Communications",
+      "Industry": "Electronics",
+      "Rating": "Hot",
+      "CleanStatus": "Pending",
+      "ExternalId__c": "Account1"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "AccountRef3"
+      },
+      "Name": "Burlington Textiles Corp of America",
+      "Industry": "Apparel",
+      "Rating": "Warm",
+      "CleanStatus": "Pending",
+      "ExternalId__c": "Account2"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "AccountRef4"
+      },
+      "Name": "Pyramid Construction Inc.",
+      "Industry": "Construction",
+      "CleanStatus": "Pending",
+      "ExternalId__c": "Account3"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "AccountRef5"
+      },
+      "Name": "Dickenson plc",
+      "Industry": "Consulting",
+      "CleanStatus": "Pending",
+      "ExternalId__c": "Account4"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "AccountRef6"
+      },
+      "Name": "Grand Hotels & Resorts Ltd",
+      "Industry": "Hospitality",
+      "Rating": "Warm",
+      "CleanStatus": "Pending",
+      "ExternalId__c": "Account5"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "AccountRef7"
+      },
+      "Name": "United Oil & Gas Corp.",
+      "Industry": "Energy",
+      "Rating": "Hot",
+      "CleanStatus": "Pending",
+      "ExternalId__c": "Account6"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "AccountRef8"
+      },
+      "Name": "Express Logistics and Transport",
+      "Industry": "Transportation",
+      "Rating": "Cold",
+      "CleanStatus": "Pending",
+      "ExternalId__c": "Account7"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "AccountRef9"
+      },
+      "Name": "University of Arizona",
+      "Industry": "Education",
+      "Rating": "Warm",
+      "CleanStatus": "Pending",
+      "ExternalId__c": "Account8"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "AccountRef10"
+      },
+      "Name": "United Oil & Gas, UK",
+      "Industry": "Energy",
+      "CleanStatus": "Pending",
+      "ExternalId__c": "Account9"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "AccountRef11"
+      },
+      "Name": "United Oil & Gas, Singapore",
+      "Industry": "Energy",
+      "CleanStatus": "Pending",
+      "ExternalId__c": "Account10"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "AccountRef12"
+      },
+      "Name": "GenePoint",
+      "Industry": "Biotechnology",
+      "Rating": "Cold",
+      "CleanStatus": "Pending",
+      "ExternalId__c": "Account11"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "AccountRef13"
+      },
+      "Name": "sForce",
+      "CleanStatus": "Pending",
+      "ExternalId__c": "Account12"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "AccountRef14"
+      },
+      "Name": "Exemple de comptes pour les autorisations",
+      "CleanStatus": "Pending",
+      "ExternalId__c": "Account13"
+    }
+  ]
+}

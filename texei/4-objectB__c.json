@@ -1,0 +1,29 @@
+{
+  "attributes": {
+    "type": "objectB__c"
+  },
+  "records": [
+    {
+      "attributes": {
+        "type": "ObjectB__c",
+        "referenceId": "ObjectBRef1"
+      },
+      "Name": "name1",
+      "Field1__c": "test1",
+      "Field2__c": "test2",
+      "Field3__c": "test3",
+      "LinkToObjectA__c": "ObjectARef1"
+    },
+    {
+      "attributes": {
+        "type": "ObjectB__c",
+        "referenceId": "ObjectBRef2"
+      },
+      "Name": "name2",
+      "Field1__c": "test1",
+      "Field2__c": "test2",
+      "Field3__c": "test3",
+      "LinkToObjectA__c": "ObjectARef2"
+    }
+  ]
+}

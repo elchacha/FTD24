@@ -1,0 +1,1 @@
+sf texei data export --objects Account,Contact,ObjectA__c,objectB__c --exclude-null-fields --outputdir ./texei

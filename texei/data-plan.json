@@ -1,0 +1,30 @@
+{
+  "excludedFields": [],
+  "lookupOverride": {},
+  "sObjects": [
+    {
+      "name": "Account",
+      "label": "",
+      "filters": "",
+      "orderBy": "",
+      "externalId": "",
+      "excludedFields": []
+    },
+    {
+      "name": "Contact",
+      "label": "",
+      "filters": "",
+      "orderBy": "",
+      "externalId": "",
+      "excludedFields": []
+    },
+    {
+      "name": "ObjectA__c",
+      "label": "",
+      "filters": "",
+      "orderBy": "",
+      "externalId": "",
+      "excludedFields": []
+    }
+  ]
+}

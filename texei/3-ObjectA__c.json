@@ -1,0 +1,33 @@
+{
+  "attributes": {
+    "type": "ObjectA__c"
+  },
+  "records": [
+    {
+      "attributes": {
+        "type": "ObjectA__c",
+        "referenceId": "ObjectARef1"
+      },
+      "Name": "name1",
+      "RecordTypeId": "RecordType1",
+      "Field1__c": "test1",
+      "Field2__c": "test2",
+      "Field3__c": "test3",
+      "Contact__c": "ContactRef1",
+      "Account__c": "AccountRef2"
+    },
+    {
+      "attributes": {
+        "type": "ObjectA__c",
+        "referenceId": "ObjectARef2"
+      },
+      "Name": "name2",
+      "RecordTypeId": "RecordType1",
+      "Field1__c": "test1",
+      "Field2__c": "test2",
+      "Field3__c": "test3",
+      "Contact__c": "ContactRef2",
+      "Account__c": "AccountRef3"
+    }
+  ]
+}

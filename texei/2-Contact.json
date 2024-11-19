@@ -1,0 +1,94 @@
+{
+  "attributes": {
+    "type": "Contact"
+  },
+  "records": [
+    {
+      "attributes": {
+        "type": "Contact",
+        "referenceId": "ContactRef1"
+      },
+      "AccountId": "AccountRef2",
+      "LastName": "Gonzalez",
+      "FirstName": "Rose",
+      "Department": "Procurement",
+      "Birthdate": "1972-09-12",
+      "CleanStatus": "Pending",
+      "ExternalId__c": "Contact1"
+    },
+    {
+      "attributes": {
+        "type": "Contact",
+        "referenceId": "ContactRef2"
+      },
+      "AccountId": "AccountRef2",
+      "LastName": "Forbes",
+      "FirstName": "Sean",
+      "Department": "Finance",
+      "Birthdate": "1951-06-11",
+      "CleanStatus": "Pending",
+      "ExternalId__c": "Contact2"
+    },
+    {
+      "attributes": {
+        "type": "Contact",
+        "referenceId": "ContactRef3"
+      },
+      "AccountId": "AccountRef3",
+      "LastName": "Rogers",
+      "FirstName": "Jack",
+      "CleanStatus": "Pending",
+      "ExternalId__c": "Contact3"
+    },
+    {
+      "attributes": {
+        "type": "Contact",
+        "referenceId": "ContactRef4"
+      },
+      "AccountId": "AccountRef4",
+      "LastName": "Stumuller",
+      "FirstName": "Pat",
+      "Department": "Finance",
+      "CleanStatus": "Pending",
+      "ExternalId__c": "Contact4"
+    },
+    {
+      "attributes": {
+        "type": "Contact",
+        "referenceId": "ContactRef5"
+      },
+      "AccountId": "AccountRef5",
+      "LastName": "Young",
+      "FirstName": "Andy",
+      "Department": "Internal Operations",
+      "CleanStatus": "Pending",
+      "ExternalId__c": "Contact5"
+    },
+    {
+      "attributes": {
+        "type": "Contact",
+        "referenceId": "ContactRef6"
+      },
+      "AccountId": "AccountRef6",
+      "LastName": "Barr",
+      "FirstName": "Tim",
+      "Department": "Finance",
+      "Birthdate": "1958-05-09",
+      "CleanStatus": "Pending",
+      "ExternalId__c": "Contact6"
+    },
+    {
+      "attributes": {
+        "type": "Contact",
+        "referenceId": "ContactRef7"
+      },
+      "AccountId": "AccountRef7",
+      "LastName": "Bond",
+      "FirstName": "John",
+      "Department": "Facilities",
+      "Birthdate": "1960-07-20",
+      "CleanStatus": "Pending",
+      "ExternalId__c": "Contact7"
+    }
+  ]
+}

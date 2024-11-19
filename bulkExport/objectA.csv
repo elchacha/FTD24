@@ -1,0 +1,3 @@
+name,field1__c,field2__c,field3__c,account__r.externalId__c,contact__r.externalId__c
+name1,test1,test2,test3,account1,contact1
+name2,test1,test2,test3,account2,contact2

@@ -1,0 +1,8 @@
+"firstname","lastname","account.ExternalId__c","birthdate","department","ExternalId__c"
+"Rose","Gonzalez","Account1","1972-09-12","Procurement","Contact1"
+"Sean","Forbes","Account1","1951-06-11","Finance","Contact2"
+"Jack","Rogers","Account2","","","Contact3"
+"Pat","Stumuller","Account3","","Finance","Contact4"
+"Andy","Young","Account4","","Internal Operations","Contact5"
+"Tim","Barr","Account5","1958-05-09","Finance","Contact6"
+"John","Bond","Account6","1960-07-20","Facilities","Contact7"
