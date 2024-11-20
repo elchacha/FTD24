@@ -1,0 +1,185 @@
+{
+    "serverMaxRevisionCounter": 42,
+    "sourceMembers": {
+        "CustomField__ObjectB__c.LinkToObjectA__c": {
+            "serverRevisionCounter": 1,
+            "lastRetrievedFromServer": 1,
+            "memberType": "CustomField",
+            "isNameObsolete": false
+        },
+        "CustomObject__ObjectB__c": {
+            "serverRevisionCounter": 18,
+            "lastRetrievedFromServer": 18,
+            "memberType": "CustomObject",
+            "isNameObsolete": false
+        },
+        "CustomField__ObjectA__c.Account__c": {
+            "serverRevisionCounter": 3,
+            "lastRetrievedFromServer": 3,
+            "memberType": "CustomField",
+            "isNameObsolete": false
+        },
+        "CustomObject__ObjectA__c": {
+            "serverRevisionCounter": 37,
+            "lastRetrievedFromServer": 37,
+            "memberType": "CustomObject",
+            "isNameObsolete": false
+        },
+        "CustomField__ObjectA__c.Contact__c": {
+            "serverRevisionCounter": 5,
+            "lastRetrievedFromServer": 5,
+            "memberType": "CustomField",
+            "isNameObsolete": false
+        },
+        "CustomField__ObjectA__c.Field1__c": {
+            "serverRevisionCounter": 7,
+            "lastRetrievedFromServer": 7,
+            "memberType": "CustomField",
+            "isNameObsolete": false
+        },
+        "CustomField__ObjectA__c.Field2__c": {
+            "serverRevisionCounter": 8,
+            "lastRetrievedFromServer": 8,
+            "memberType": "CustomField",
+            "isNameObsolete": false
+        },
+        "CustomField__ObjectA__c.Field3__c": {
+            "serverRevisionCounter": 9,
+            "lastRetrievedFromServer": 9,
+            "memberType": "CustomField",
+            "isNameObsolete": false
+        },
+        "CustomField__ObjectB__c.Field1__c": {
+            "serverRevisionCounter": 10,
+            "lastRetrievedFromServer": 10,
+            "memberType": "CustomField",
+            "isNameObsolete": false
+        },
+        "CustomField__ObjectB__c.Field2__c": {
+            "serverRevisionCounter": 11,
+            "lastRetrievedFromServer": 11,
+            "memberType": "CustomField",
+            "isNameObsolete": false
+        },
+        "CustomField__ObjectB__c.Field3__c": {
+            "serverRevisionCounter": 12,
+            "lastRetrievedFromServer": 12,
+            "memberType": "CustomField",
+            "isNameObsolete": false
+        },
+        "CustomField__ObjectC__c.FieldC1__c": {
+            "serverRevisionCounter": 13,
+            "lastRetrievedFromServer": 13,
+            "memberType": "CustomField",
+            "isNameObsolete": false
+        },
+        "CustomField__ObjectC__c.FieldC2__c": {
+            "serverRevisionCounter": 14,
+            "lastRetrievedFromServer": 14,
+            "memberType": "CustomField",
+            "isNameObsolete": false
+        },
+        "CustomField__ObjectC__c.LinkToObjectA__c": {
+            "serverRevisionCounter": 15,
+            "lastRetrievedFromServer": 15,
+            "memberType": "CustomField",
+            "isNameObsolete": false
+        },
+        "CustomObject__ObjectC__c": {
+            "serverRevisionCounter": 19,
+            "lastRetrievedFromServer": 19,
+            "memberType": "CustomObject",
+            "isNameObsolete": false
+        },
+        "Layout__ObjectA__c-ObjectA Layout": {
+            "serverRevisionCounter": 20,
+            "lastRetrievedFromServer": 20,
+            "memberType": "Layout",
+            "isNameObsolete": false
+        },
+        "Profile__Admin": {
+            "serverRevisionCounter": 42,
+            "lastRetrievedFromServer": 42,
+            "memberType": "Profile",
+            "isNameObsolete": false
+        },
+        "CustomField__Account.ExternalId__c": {
+            "serverRevisionCounter": 22,
+            "lastRetrievedFromServer": 22,
+            "memberType": "CustomField",
+            "isNameObsolete": false
+        },
+        "CustomField__Contact.ExternalId__c": {
+            "serverRevisionCounter": 23,
+            "lastRetrievedFromServer": 23,
+            "memberType": "CustomField",
+            "isNameObsolete": false
+        },
+        "RecordType__ObjectA__c.RecordType1": {
+            "serverRevisionCounter": 24,
+            "lastRetrievedFromServer": 24,
+            "memberType": "RecordType",
+            "isNameObsolete": false
+        },
+        "RecordType__ObjectA__c.RecordType2": {
+            "serverRevisionCounter": 25,
+            "lastRetrievedFromServer": 25,
+            "memberType": "RecordType",
+            "isNameObsolete": false
+        },
+        "Layout__Account-Account (Marketing) Layout": {
+            "serverRevisionCounter": 26,
+            "lastRetrievedFromServer": 26,
+            "memberType": "Layout",
+            "isNameObsolete": false
+        },
+        "Layout__Account-Account (Sales) Layout": {
+            "serverRevisionCounter": 27,
+            "lastRetrievedFromServer": 27,
+            "memberType": "Layout",
+            "isNameObsolete": false
+        },
+        "Layout__Account-Account (Support) Layout": {
+            "serverRevisionCounter": 28,
+            "lastRetrievedFromServer": 28,
+            "memberType": "Layout",
+            "isNameObsolete": false
+        },
+        "Layout__Account-Account Layout": {
+            "serverRevisionCounter": 29,
+            "lastRetrievedFromServer": 29,
+            "memberType": "Layout",
+            "isNameObsolete": false
+        },
+        "Layout__Contact-Contact (Marketing) Layout": {
+            "serverRevisionCounter": 38,
+            "lastRetrievedFromServer": 38,
+            "memberType": "Layout",
+            "isNameObsolete": false
+        },
+        "Layout__Contact-Contact (Sales) Layout": {
+            "serverRevisionCounter": 39,
+            "lastRetrievedFromServer": 39,
+            "memberType": "Layout",
+            "isNameObsolete": false
+        },
+        "Layout__Contact-Contact (Support) Layout": {
+            "serverRevisionCounter": 40,
+            "lastRetrievedFromServer": 40,
+            "memberType": "Layout",
+            "isNameObsolete": false
+        },
+        "Layout__Contact-Contact Layout": {
+            "serverRevisionCounter": 41,
+            "lastRetrievedFromServer": 41,
+            "memberType": "Layout",
+            "isNameObsolete": false
+        },
+        "CustomField__ObjectA__c.ObjectB__c": {
+            "serverRevisionCounter": 36,
+            "lastRetrievedFromServer": 36,
+            "memberType": "CustomField",
+            "isNameObsolete": false
+        }
+    }
+}

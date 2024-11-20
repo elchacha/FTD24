@@ -1,0 +1,24 @@
+{
+    "objects": [
+        {
+            "query": "SELECT Id, createable_true FROM Account",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT Id, createable_true FROM Contact",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT Id, createable_true FROM ObjectA__c",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT Id, createable_true FROM ObjectB__c",
+            "operation": "Upsert",
+            "externalId": "Name"
+        }
+    ]
+}

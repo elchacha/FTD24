@@ -1,0 +1,25 @@
+{
+    "objects": [
+        {
+            "query": "SELECT Id, createable_true FROM Account",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT Id, AccountId,LastName,FirstName,Department,Birthdate,CleanStatus,ExternalId__c FROM Contact",
+            "operation": "Upsert",
+            "externalId": "FirstName;LastName",
+            "targetRecordsFilter": "AccountId"
+        },
+        {
+            "query": "SELECT Id, createable_true FROM ObjectA__c",
+            "operation": "Upsert",
+            "externalId": "Name"
+        },
+        {
+            "query": "SELECT Id, createable_true FROM ObjectB__c",
+            "operation": "Upsert",
+            "externalId": "Name"
+        }
+    ]
+}
