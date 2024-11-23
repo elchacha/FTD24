@@ -1,0 +1,8 @@
+.sfdx/typings/lwc/user.d.ts
+.sfdx/typings/lwc/messageservice.d.ts
+.sfdx/typings/lwc/schema.d.ts
+.sfdx/typings/lwc/lds.d.ts
+.sfdx/typings/lwc/engine.d.ts
+.sfdx/typings/lwc/apex.d.ts
+.sfdx/tools/252/apex.db
+.sfdx/indexes/lwc/custom-components.json
