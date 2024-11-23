@@ -1,0 +1,258 @@
+
+ [11:44:11.664] Execution of the command sfdmu:run has been started.
+
+ LOADING AND VALIDATING THE EXPORT.JSON SCRIPT ...
+
+ OBJECT SET #1 STARTED
+
+ {
+   "Running Plugin version": "4.36.7"
+}
+ {
+   "Running Add-On API version": "1.6.0"
+}
+
+ [11:44:11.679] Loading Core Add-On Module declarations ...
+ [11:44:11.748] Connecting to the DataSeedingTgt using SFDX sf org display ...
+ [11:44:14.863] Successfully connected to the DataSeedingTgt.
+ {
+   "Source": "csvfile.",
+   "Target": "DataSeedingTgt.",
+   "Package script": "C:\\pro\\wksVsCode\\FTD24\\sfdmu\\export.json."
+}
+
+ GETTING AND ANALYSING OBJECT METADATA ...
+ [11:44:15.275] Processing the object Account ...
+ [11:44:15.276] Fetching metadata of the Account (Target) ...
+ [11:44:15.945] Processing the object Contact ...
+ [11:44:15.946] Fetching metadata of the Contact (Target) ...
+ [11:44:16.435] Processing the object ObjectA__c ...
+ [11:44:16.437] Fetching metadata of the ObjectA__c (Target) ...
+ [11:44:16.748] Processing the object ObjectB__c ...
+ [11:44:16.749] Fetching metadata of the ObjectB__c (Target) ...
+ [11:44:17.1] Fetching metadata of the Group (Target) ...
+ [11:44:17.348] Processing the object ObjectB__c ...
+ [11:44:17.350] Processing the object ObjectA__c ...
+ [11:44:17.351] Processing the object Contact ...
+ [11:44:17.353] Fetching metadata of the Individual (Target) ...
+ [11:44:17.681] The parent object Individual for the child lookup field Contact.IndividualId has been included into the process. The externalId is set to 'Name'.
+ [11:44:17.682] Processing the object Account ...
+ [11:44:17.686] Fetching metadata of the OperatingHours (Target) ...
+ [11:44:18.2] The parent object OperatingHours for the child lookup field Account.OperatingHoursId has been included into the process. The externalId is set to 'Name'.
+
+ PREPARING DATA MIGRATION JOB ...
+ [11:44:18.8] Building the migration strategy ...
+ {
+   "Order of objects to query": "Account; Contact; ObjectA__c; ObjectB__c; OperatingHours; Individual"
+}
+ {
+   "Order of objects to delete": "ObjectB__c; ObjectA__c; Contact; Account; Individual; OperatingHours"
+}
+ {
+   "Order of objects to update": "OperatingHours; Individual; Account; Contact; ObjectA__c; ObjectB__c"
+}
+ [11:44:18.49] Validation of the source CSV files ...
+ [11:44:18.100] Writing to C:\pro\wksVsCode\FTD24\sfdmu\source\ObjectA__c_source.csv ...
+ [11:44:18.104] Writing to C:\pro\wksVsCode\FTD24\sfdmu\source\ObjectB__c_source.csv ...
+ [11:44:18.107] Amount of updated source CSV files: 2.
+ [11:44:18.108] No issues were found in the source CSV files.
+ [11:44:18.108] Processing the source CSV files has been completed.
+ [11:44:18.109] Preparing of the data migration job has been completed.
+
+ ANALYSING DATA...
+ [11:44:18.195] {OperatingHours} The original query string of this object is returning 0 records from the Target org.
+ [11:44:18.282] {Individual} The original query string of this object is returning 0 records from the Target org.
+ [11:44:18.406] {Account} The original query string of this object is returning 14 records from the Target org.
+ [11:44:18.521] {Contact} The original query string of this object is returning 7 records from the Target org.
+ [11:44:18.663] {ObjectA__c} The original query string of this object is returning 2 records from the Target org.
+ [11:44:18.795] {ObjectB__c} The original query string of this object is returning 2 records from the Target org.
+
+ TRIGGERING ADD-ON EVENTS ...
+ [11:44:18.798] No Add-On modules found to run.
+
+ [11:44:18.800] Ready to process the data.
+
+ DELETING OLD DATA FROM THE TARGET ...
+ [11:44:18.803] {ObjectB__c} No records to delete.
+ [11:44:18.803] {ObjectA__c} No records to delete.
+ [11:44:18.804] {Contact} No records to delete.
+ [11:44:18.804] {Account} No records to delete.
+ [11:44:18.805] {Individual} No records to delete.
+ [11:44:18.806] {OperatingHours} No records to delete.
+ [11:44:18.807] Deleting data was skipped.
+
+ SOURCE:
+ ===========
+
+ FETCHING THE DATA (STAGE 1) ...
+ [11:44:18.816] {Account} Fetching the Source data from CSV file (STAGE 1: all records) ...
+ [11:44:18.843] {Account} Data retrieval (Source) has been completed. Got 14 new records.
+ [11:44:18.845] {Contact} Fetching the Source data from CSV file (STAGE 1: all records) ...
+ [11:44:18.859] {Contact} Data retrieval (Source) has been completed. Got 7 new records.
+ [11:44:18.860] {ObjectA__c} Fetching the Source data from CSV file (STAGE 1: all records) ...
+ [11:44:18.866] {ObjectA__c} Data retrieval (Source) has been completed. Got 2 new records.
+ [11:44:18.867] {ObjectB__c} Fetching the Source data from CSV file (STAGE 1: all records) ...
+ [11:44:18.870] {ObjectB__c} Data retrieval (Source) has been completed. Got 2 new records.
+ [11:44:18.871] {OperatingHours} Fetching the Source data from CSV file (STAGE 1: all records) ...
+ [11:44:18.872] {OperatingHours} Data retrieval (Source) has been completed. Got 0 new records.
+ [11:44:18.873] {Individual} Fetching the Source data from CSV file (STAGE 1: all records) ...
+ [11:44:18.875] {Individual} Data retrieval (Source) has been completed. Got 0 new records.
+ [11:44:18.875] Data retrieval (STAGE 1) has been completed.
+
+ FETCHING THE DATA (STAGE 2) ...
+ [11:44:18.877] PASS 1
+ ===========
+ [11:44:18.879] No records
+
+ [11:44:18.881] PASS 2
+ ===========
+ [11:44:18.883] No records
+
+ [11:44:18.884] PASS 3
+ ===========
+ [11:44:18.886] No records
+
+ [11:44:18.886] PASS 4
+ ===========
+ [11:44:18.888] No records
+
+ TARGET:
+ ===========
+ [11:44:18.890] {Account} Fetching the Target data from Org (STAGE 2: all records) ...
+ [11:44:18.891] {Account} Query string: SELECT Id, Name, IsDeleted, Type, ParentId, BillingStreet, BillingCity, BillingState, BillingPostalCode, BillingCountry, BillingLatitude, BillingLongitude, BillingGeocodeAccuracy, ShippingStreet, ShippingCity, ShippingState, ShippingPostalCode, Shipp... FROM  Account.
+ [11:44:18.895] {Account} Using REST API to retrieve the data ...
+ [11:44:19.73] {Account} Data retrieval (Target) has been completed. Got 14 new records.
+ [11:44:19.76] {Contact} Fetching the Target data from Org (STAGE 2: all records) ...
+ [11:44:19.77] {Contact} Query string: SELECT Id, Name, IsDeleted, AccountId, LastName, FirstName, Salutation, OtherStreet, OtherCity, OtherState, OtherPostalCode, OtherCountry, OtherLatitude, OtherLongitude, OtherGeocodeAccuracy, OtherAddress, MailingStreet, MailingCity, MailingState, Ma... FROM  Contact.
+ [11:44:19.83] {Contact} Using REST API to retrieve the data ...
+ [11:44:19.292] {Contact} Data retrieval (Target) has been completed. Got 7 new records.
+ [11:44:19.293] {ObjectA__c} Fetching the Target data from Org (STAGE 2: all records) ...
+ [11:44:19.295] {ObjectA__c} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, Account__c, Contact__c, Field1__c, Field2__c, Field3__c, ObjectB__c, Account__r.Name, Contact__r.Name, ObjectB__r.Name  FROM  ObjectA__c.
+ [11:44:19.297] {ObjectA__c} Using REST API to retrieve the data ...
+ [11:44:19.431] {ObjectA__c} Data retrieval (Target) has been completed. Got 2 new records.
+ [11:44:19.433] {ObjectB__c} Fetching the Target data from Org (STAGE 2: all records) ...
+ [11:44:19.434] {ObjectB__c} Query string: SELECT Id, Name, IsDeleted, CreatedDate, LastModifiedDate, SystemModstamp, LinkToObjectA__c, Field1__c, Field2__c, Field3__c, LinkToObjectA__r.Name  FROM  ObjectB__c.
+ [11:44:19.437] {ObjectB__c} Using REST API to retrieve the data ...
+ [11:44:19.529] {ObjectB__c} Data retrieval (Target) has been completed. Got 2 new records.
+ [11:44:19.531] Data retrieval (STAGE 2) has been completed.
+
+ TRIGGERING ADD-ON EVENTS ...
+ [11:44:19.535] No Add-On modules found to run.
+
+
+ DATA RETRIEVAL SUMMARY.
+ [11:44:19.539] {Account} The total amount of the retrieved records: 14/14.
+ [11:44:19.540] {Contact} The total amount of the retrieved records: 7/7.
+ [11:44:19.540] {ObjectA__c} The total amount of the retrieved records: 2/2.
+ [11:44:19.541] {ObjectB__c} The total amount of the retrieved records: 2/2.
+ [11:44:19.541] {OperatingHours} The total amount of the retrieved records: 0/0.
+ [11:44:19.542] {Individual} The total amount of the retrieved records: 0/0.
+
+ UPDATING THE TARGET (STAGE 1) ...
+ [11:44:19.547] {Account} Amount of records to Update: 14.
+ [11:44:19.550] {Account} The Update API operation has been started using REST API.
+ [11:44:19.550] [Job# REST:Update] {Account} The job has been created. Uploading data ...
+ [11:44:19.823] {Account} The Update API operation has been completed.
+ [11:44:19.829] {Account} The Target has been updated. Totally processed 14 records.
+
+ [11:44:19.838] {Contact} Amount of records to Update: 7.
+ [11:44:19.840] {Contact} The Update API operation has been started using REST API.
+ [11:44:19.841] [Job# REST:Update] {Contact} The job has been created. Uploading data ...
+ [11:44:20.185] {Contact} The Update API operation has been completed.
+ [11:44:20.189] {Contact} The Target has been updated. Totally processed 7 records.
+
+ [11:44:20.192] {ObjectA__c} Amount of records to Update: 2.
+ [11:44:20.194] {ObjectA__c} The Update API operation has been started using REST API.
+ [11:44:20.195] [Job# REST:Update] {ObjectA__c} The job has been created. Uploading data ...
+ [11:44:20.387] {ObjectA__c} The Update API operation has been completed.
+ [11:44:20.397] {ObjectA__c} The Target has been updated. Totally processed 2 records.
+
+ [11:44:20.399] {ObjectB__c} Amount of records to Update: 2.
+ [11:44:20.401] {ObjectB__c} The Update API operation has been started using REST API.
+ [11:44:20.401] [Job# REST:Update] {ObjectB__c} The job has been created. Uploading data ...
+ [11:44:20.561] {ObjectB__c} The Update API operation has been completed.
+ [11:44:20.564] {ObjectB__c} The Target has been updated. Totally processed 2 records.
+
+
+ [11:44:20.565] The Target (STAGE 1) has been updated. Totally processed 25 records.
+
+ UPDATING THE TARGET (STAGE 2) ...
+
+ [11:44:20.568] PASS 1
+ ===========
+ [11:44:20.570] {Account} Amount of records to Update: 14.
+ [11:44:20.571] {Account} The Update API operation has been started using REST API.
+ [11:44:20.572] [Job# REST:Update] {Account} The job has been created. Uploading data ...
+ [11:44:20.738] {Account} The Update API operation has been completed.
+ [11:44:20.743] {Account} The Target has been updated. Totally processed 14 records.
+
+ [11:44:20.746] {Contact} Amount of records to Update: 7.
+ [11:44:20.748] {Contact} The Update API operation has been started using REST API.
+ [11:44:20.749] [Job# REST:Update] {Contact} The job has been created. Uploading data ...
+ [11:44:20.905] {Contact} The Update API operation has been completed.
+ [11:44:20.910] {Contact} The Target has been updated. Totally processed 7 records.
+
+ [11:44:20.911] {ObjectA__c} Amount of records to Update: 2.
+ [11:44:20.912] {ObjectA__c} The Update API operation has been started using REST API.
+ [11:44:20.913] [Job# REST:Update] {ObjectA__c} The job has been created. Uploading data ...
+ [11:44:21.59] {ObjectA__c} The Update API operation has been completed.
+ [11:44:21.61] {ObjectA__c} The Target has been updated. Totally processed 2 records.
+
+ [11:44:21.63] {ObjectB__c} Amount of records to Update: 2.
+ [11:44:21.65] {ObjectB__c} The Update API operation has been started using REST API.
+ [11:44:21.66] [Job# REST:Update] {ObjectB__c} The job has been created. Uploading data ...
+ [11:44:21.169] {ObjectB__c} The Update API operation has been completed.
+ [11:44:21.172] {ObjectB__c} The Target has been updated. Totally processed 2 records.
+
+
+ [11:44:21.174] PASS 2
+ ===========
+ [11:44:21.179] {Account} Amount of records to Update: 14.
+ [11:44:21.182] {Account} The Update API operation has been started using REST API.
+ [11:44:21.184] [Job# REST:Update] {Account} The job has been created. Uploading data ...
+ [11:44:21.352] {Account} The Update API operation has been completed.
+ [11:44:21.355] {Account} The Target has been updated. Totally processed 14 records.
+
+ [11:44:21.358] {Contact} Amount of records to Update: 7.
+ [11:44:21.360] {Contact} The Update API operation has been started using REST API.
+ [11:44:21.361] [Job# REST:Update] {Contact} The job has been created. Uploading data ...
+ [11:44:21.490] {Contact} The Update API operation has been completed.
+ [11:44:21.493] {Contact} The Target has been updated. Totally processed 7 records.
+
+ [11:44:21.495] {ObjectA__c} Amount of records to Update: 2.
+ [11:44:21.496] {ObjectA__c} The Update API operation has been started using REST API.
+ [11:44:21.497] [Job# REST:Update] {ObjectA__c} The job has been created. Uploading data ...
+ [11:44:21.588] {ObjectA__c} The Update API operation has been completed.
+ [11:44:21.592] {ObjectA__c} The Target has been updated. Totally processed 2 records.
+
+ [11:44:21.593] {ObjectB__c} Amount of records to Update: 2.
+ [11:44:21.595] {ObjectB__c} The Update API operation has been started using REST API.
+ [11:44:21.596] [Job# REST:Update] {ObjectB__c} The job has been created. Uploading data ...
+ [11:44:21.733] {ObjectB__c} The Update API operation has been completed.
+ [11:44:21.737] {ObjectB__c} The Target has been updated. Totally processed 2 records.
+
+
+ [11:44:21.738] The Target (STAGE 2) has been updated. Totally processed 50 records.
+
+ TRIGGERING ADD-ON EVENTS ...
+ [11:44:21.741] No Add-On modules found to run.
+
+
+ DATA PROCESSING SUMMARY.
+ [11:44:21.743] {Account} Totally processed 42 records.
+ [11:44:21.744] {Contact} Totally processed 21 records.
+ [11:44:21.745] {ObjectA__c} Totally processed 6 records.
+ [11:44:21.746] {ObjectB__c} Totally processed 6 records.
+ [11:44:21.747] {OperatingHours} Totally processed 0 records.
+ [11:44:21.748] {Individual} Totally processed 0 records.
+
+ [11:44:21.750] Writing to C:\pro\wksVsCode\FTD24\sfdmu\MissingParentRecordsReport.csv ...
+
+
+ TRIGGERING ADD-ON EVENTS ...
+ [11:44:21.754] No Add-On modules found to run.
+
+
+ [11:44:21.761] Command succeeded.
+ [11:44:21.763] Execution of the command sfdmu:run has been completed. Exit code 0 (SUCCESS).
+ [11:44:21.765] Total time elapsed: 00h 00m 10s 099ms .

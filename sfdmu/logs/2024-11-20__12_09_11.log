@@ -1,0 +1,8 @@
+
+ [12:09:11.665] Execution of the command sfdmu:run has been started.
+
+ LOADING AND VALIDATING THE EXPORT.JSON SCRIPT ...
+
+ [12:09:11.687] [ERROR] Command initialization error: Incorrect format of the export.json file. Error message: Expected double-quoted property name in JSON at position 456..
+ [12:09:11.689] [ERROR] Execution of the command sfdmu:run has been completed. Exit code 2 (COMMAND_INITIALIZATION_ERROR).
+ [12:09:11.690] Total time elapsed: 00h 00m 00s 023ms .

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .sfdx/typings/lwc/user.d.ts
 .sfdx/typings/lwc/messageservice.d.ts
 .sfdx/typings/lwc/schema.d.ts
@@ -6,3 +7,15 @@
 .sfdx/typings/lwc/apex.d.ts
 .sfdx/tools/252/apex.db
 .sfdx/indexes/lwc/custom-components.json
+=======
+.sfdx/indexes/lwc/custom-components.json
+.sfdx/typings/lwc/apex.d.ts
+.sfdx/typings/lwc/lds.d.ts
+.sfdx/typings/lwc/messageservice.d.ts
+.sfdx/typings/lwc/engine.d.ts
+.sfdx/typings/lwc/schema.d.ts
+.sfdx/typings/lwc/user.d.ts
+.sf/config.json
+.sfdx/sfdx-config.json
+.sfdx/
+>>>>>>> 9bc315b409f1879a17a263de5ecbc70b4325d620
